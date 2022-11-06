@@ -216,6 +216,22 @@
         <servlet-name>SeniorHomeController</servlet-name>
         <servlet-class>controller.SeniorHomeController</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>AdminListTestProjectController</servlet-name>
+        <servlet-class>controller.AdminListTestProjectController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>AdminDeleteTestProject</servlet-name>
+        <servlet-class>controller.AdminDeleteTestProject</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>AdminAddTestProjectController</servlet-name>
+        <servlet-class>controller.AdminAddTestProjectController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>AdminEditTestProjectController</servlet-name>
+        <servlet-class>controller.AdminEditTestProjectController</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>HomeController</servlet-name>
         <url-pattern>/home</url-pattern>
@@ -435,6 +451,22 @@
     <servlet-mapping>
         <servlet-name>SeniorHomeController</servlet-name>
         <url-pattern>/seniorhome</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AdminListTestProjectController</servlet-name>
+        <url-pattern>/listTestProject</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AdminDeleteTestProject</servlet-name>
+        <url-pattern>/deleteTestProject</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AdminAddTestProjectController</servlet-name>
+        <url-pattern>/addTestProject</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AdminEditTestProjectController</servlet-name>
+        <url-pattern>/editTestProject</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

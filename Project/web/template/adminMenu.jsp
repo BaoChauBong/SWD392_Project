@@ -15,7 +15,7 @@
     </li>
     <!--Role-->
     <li class="">
-        <a href=""><i class="fa fa-users" aria-hidden="true"></i> Role</a>
+        <a href="${pageContext.request.contextPath}/listTestProject"><i class="fa fa-users" aria-hidden="true"></i> Test Project</a>
     </li>
     <!--Projects-->
     <li class="">
